@@ -1,0 +1,8 @@
+export const ROOT_URL = 'http://localhost:3000';
+export const REQUEST_PARAGRAPHS = 'REQUEST_PARAGRAPHS';
+export const RECEIVE_PARAGRAPHS = 'RECEIVE_PARAGRAPHS';
+export const REQUEST_ENTRIES = 'REQUEST_ENTRIES';
+export const RECEIVE_ENTRIES = 'RECEIVE_ENTRIES';
+export const DELETE_ENTRY = 'DELETE_ENTRY';
+export const APPROVE_ENTRY = 'APPROVE_ENTRY';
+

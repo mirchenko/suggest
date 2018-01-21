@@ -1,0 +1,19 @@
+import React from 'react';
+
+export const Loader = props => {
+  return (
+    <div className="width-100 f-row-now j-content-center a-i-center">
+      <svg width={props.width || '38'} height={props.height || '38'} viewBox="0 0 38 38" stroke="#3498DB">
+        <g fill="none" fillRule="evenodd">
+          <g transform="translate(1 1)" strokeWidth="2">
+            <circle strokeOpacity=".5" cx="18" cy="18" r="18"/>
+            <path d="M36 18c0-9.94-8.06-18-18-18" transform="rotate(38.6298 18 18)">
+              <animateTransform attributeName="transform" type="rotate" from="0 18 18" to="360 18 18" dur="1s"
+                                repeatCount="indefinite"/>
+            </path>
+          </g>
+        </g>
+      </svg>
+    </div>
+  );
+};

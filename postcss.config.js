@@ -1,0 +1,10 @@
+/**
+ * Created by macbookair on 05.03.17.
+ */
+const autoprefixer = require('autoprefixer');
+
+module.exports = {
+  plugins: [
+    autoprefixer({ browsers: ['last 3 versions', '> 1%'] })
+  ]
+};
